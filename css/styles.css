@@ -5,3 +5,78 @@
 @import url(https://fonts.googleapis.com/css?family=Cantora+One);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
+body{
+	background-image: url(../img/sandpaper.png);
+	font-family: 'Open Sans';
+	font-size: 16px;
+}
+
+article{
+	width: 90%;
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+header{
+	background-color: #907A46;
+	padding: 10px;
+}
+
+.img-resize{
+	height: 60px;
+	float: right;
+	opacity: 0.7;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;                        
+                    
+}
+
+.img-resize:hover{
+	opacity: 1;
+}
+
+h1{
+	font-family: 'Cantora One';
+	font-size: 200%;
+	color: #EEEDEA;
+	line-height: 60px;
+}
+
+figure{
+	display: inline-block;
+	padding: 10px;
+	background-color: #FFF;
+
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	transition: all 0.4s ease;                        
+                    
+}
+
+figcaption{
+	font-weight: 300;
+	text-align: center;
+	margin-top: 5px;
+
+}
+figure img{
+	width: 200px;
+	border:10px solid #EEE;
+	border-radius: 2px;
+}
+
+figure:hover{
+	-webkit-transform: scale(1.5) rotate(-15deg);
+	-moz-transform: scale(1.5) rotate(-15deg);
+	-o-transform: scale(1.5) rotate(-15deg);
+	-ms-transform: scale(1.5) rotate(-15deg);
+	transform: scale(1.5) rotate(-15deg);
+}
